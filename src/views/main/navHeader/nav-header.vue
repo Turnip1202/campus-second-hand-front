@@ -6,9 +6,7 @@ import { navBarConfig } from './config/navBar.config';
 const router = useRouter();
 const toGoods = () => {
   //跳转到物品发布页面
-  router.push({
-    path: '/main/publish',
-  });
+  router.push('/main/publish');
 };
 </script>
 

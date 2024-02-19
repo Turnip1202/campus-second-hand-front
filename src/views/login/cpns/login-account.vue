@@ -10,7 +10,7 @@ const toMain = () => router.push('/');
     <el-form status-icon>
       <el-form-item prop="pass" class="form">
         <template v-slot:label> 账户: </template>
-        <el-input type="text" autocomplete="off">
+        <el-input type="text" autocomplete="off" placeholder="请输入账户">
           <template #prepend>
             <el-icon><UserFilled /></el-icon>
           </template>
@@ -18,7 +18,7 @@ const toMain = () => router.push('/');
       </el-form-item>
       <el-form-item prop="checkPass">
         <template v-slot:label> 密码: </template>
-        <el-input type="password" autocomplete="off">
+        <el-input type="password" autocomplete="off" placeholder="请输入密码">
           <template #prepend>
             <el-icon><Lock /></el-icon>
           </template>

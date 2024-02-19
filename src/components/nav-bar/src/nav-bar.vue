@@ -29,7 +29,7 @@ const toRegister = () =>
 
 <template>
   <div class="nav-header">
-    <h1 class="title">{{ refProps.title }}</h1>
+    <a href="/" class="title">{{ refProps.title }}</a>
     <div class="fooOne fooCommon">
       <slot name="fooOne">{{ refProps.fooOne }}</slot>
     </div>
@@ -79,6 +79,7 @@ const toRegister = () =>
     font-weight: 400;
     font-style: normal;
     color: $global-color;
+    text-decoration: none;
   }
   .search {
     display: flex;

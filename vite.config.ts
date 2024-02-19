@@ -1,5 +1,5 @@
-import path from 'path';
 import { defineConfig } from 'vite';
+import path from 'path';
 import vue from '@vitejs/plugin-vue';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
@@ -34,7 +34,7 @@ export default defineConfig({
     open: true, //设置server，则preview也默认开启
   },
   preview: {
-    port: 3000,
+    port: 3001,
   },
   resolve: {
     // 配置路径别名
